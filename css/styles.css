@@ -132,7 +132,12 @@ ul {
 /* main styles */
 
 .hero-bg {
-    background-color: var(--secondary-page-color);
+    background-color: #C4C4C4;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('/images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px 600px;
     padding: 200px 0;
     text-align: center;
     
