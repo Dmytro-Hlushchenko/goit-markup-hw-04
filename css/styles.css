@@ -80,7 +80,6 @@ ul {
 .nav-list {
     display: flex;
     margin-left: 93px;
-
 }
 
 .nav-list .link {
@@ -103,6 +102,7 @@ ul {
 .header-contact a:hover,
 .header-contact a:focus {
     color: var(--active-text-color);
+    fill: var(--active-text-color);
 }
 
 .header-contact {
@@ -124,6 +124,16 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.header-icons {
+    fill: var(--secondary-text-color);
+    margin-right: 10px;
+}
+
+.header-icon-link.link{
+    display: flex;
+    align-items: center;
 }
 
 .header-border {
@@ -200,19 +210,19 @@ ul {
     border-radius: 4px;
 }
 
-.list .item:nth-child(1)::before {
+.skills .item:nth-child(1)::before {
     background-image: url(../images/antenna.png);
 }
 
-.list .item:nth-child(2)::before {
+.skills .item:nth-child(2)::before {
     background-image: url(../images/clock.png);
 }
 
-.list .item:nth-child(3)::before {
+.skills .item:nth-child(3)::before {
     background-image: url(../images/diagram.png);
 }
 
-.list .item:nth-child(4)::before {
+.skills .item:nth-child(4)::before {
     background-image: url(../images/astronaut.png);
 }
 
@@ -410,7 +420,7 @@ ul {
     cursor: pointer;
     font-family: inherit;
     color: var(--primary-text-color);
-    font-weight: 500;
+    font-weight: 500;   
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
