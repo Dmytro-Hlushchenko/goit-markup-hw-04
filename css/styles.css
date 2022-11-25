@@ -353,7 +353,7 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.footer-block {
+.footer-adress-block {
     display: flex;
     flex-direction: column;
     gap: 9px;
@@ -378,7 +378,37 @@ ul {
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--active-text-color);
-}   
+}
+
+.footer-blocks {
+    display: flex;
+}
+
+.join-list {
+    display: flex;
+}
+
+.footer-soc-links {
+    margin-left: 70px;
+}
+
+.join-title {
+    margin-bottom: 20px;
+
+    width: 116px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.join-item {
+    width: 44px;
+    height: 44px;
+}
 
 /*PORTFOLIO main*/
 
